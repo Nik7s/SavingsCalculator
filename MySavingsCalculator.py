@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 import numpy as np
 
+# Import Libraries
 
 def calculate_details(P, apy, t, d):
     monthly_apy = (1 + apy) ** (1 / 12) - 1
